@@ -58,3 +58,8 @@ The architecture, layout and component structure, calculations, the business log
 ## Further improvements
 - AI integration, so AI could write recommendations for weak steps via system prompts.
 - I would add an API so we could migrate calculation business logic there and fetch via REST
+
+## Final thoughts
+
+I enjoyed working on this assignment. The topic was engaging and it was interesting to break down a real-world product problem into a small, working application.
+Thank you for your time reviewing it.
