@@ -2,7 +2,7 @@
 
 @layer components {
   .campaign-sidebar {
-    @apply border-b border-border bg-surface md:min-h-[calc(100vh-65px)] md:border-b-0 md:border-r;
+    @apply flex flex-col border-b border-border bg-surface md:h-[calc(100vh-65px)] md:border-b-0 md:border-r;
   }
 
   .campaign-sidebar--collapsed {
@@ -26,7 +26,7 @@
   }
 
   .campaign-sidebar__list {
-    @apply flex gap-2 overflow-x-auto p-3 md:flex-col md:overflow-visible;
+    @apply flex gap-2 overflow-x-auto p-3 md:flex-1 md:flex-col md:overflow-y-auto;
   }
 
   .sidebar-item {

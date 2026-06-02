@@ -154,6 +154,294 @@
           "description": "Result shown with won discount code."
         }
       ]
+    },
+    {
+      "id": "camp_006",
+      "name": "Abandoned Browse Reminder",
+      "device": "desktop",
+      "steps": [
+        {
+          "id": "step_1",
+          "name": "Product reminder popup",
+          "type": "teaser",
+          "views": 14000,
+          "proceeds": 4200,
+          "description": "Popup showing recently viewed products with discount hint."
+        },
+        {
+          "id": "step_2",
+          "name": "Personalized offer",
+          "type": "coupon",
+          "views": 4200,
+          "proceeds": 1700,
+          "description": "Dynamic discount based on viewed category."
+        },
+        {
+          "id": "step_3",
+          "name": "Email reminder",
+          "type": "email",
+          "views": 1700,
+          "proceeds": 600,
+          "description": "Email follow-up with product links and discount."
+        },
+        {
+          "id": "step_4",
+          "name": "Return confirmation",
+          "type": "success",
+          "views": 600,
+          "proceeds": 590,
+          "description": "Landing page confirming saved cart items."
+        }
+      ]
+    },
+    {
+      "id": "camp_007",
+      "name": "Mobile App Install Incentive",
+      "device": "mobile",
+      "steps": [
+        {
+          "id": "step_1",
+          "name": "Install banner",
+          "type": "teaser",
+          "views": 16000,
+          "proceeds": 5000,
+          "description": "Sticky banner promoting app install with reward."
+        },
+        {
+          "id": "step_2",
+          "name": "Store redirect",
+          "type": "redirect",
+          "views": 5000,
+          "proceeds": 2600,
+          "description": "Redirect to app store with install tracking."
+        },
+        {
+          "id": "step_3",
+          "name": "Install confirmation",
+          "type": "success",
+          "views": 2600,
+          "proceeds": 2400,
+          "description": "Post-install welcome screen with bonus code."
+        }
+      ]
+    },
+    {
+      "id": "camp_008",
+      "name": "Holiday Gift Guide Popup",
+      "device": "desktop",
+      "steps": [
+        {
+          "id": "step_1",
+          "name": "Gift guide teaser",
+          "type": "teaser",
+          "views": 20000,
+          "proceeds": 7000,
+          "description": "Popup showcasing curated holiday gift categories."
+        },
+        {
+          "id": "step_2",
+          "name": "Category selection",
+          "type": "interaction",
+          "views": 7000,
+          "proceeds": 3800,
+          "description": "User selects gift category for recommendations."
+        },
+        {
+          "id": "step_3",
+          "name": "Email for guide",
+          "type": "email",
+          "views": 3800,
+          "proceeds": 1200,
+          "description": "Email required to receive full gift guide."
+        },
+        {
+          "id": "step_4",
+          "name": "Guide delivered",
+          "type": "success",
+          "views": 1200,
+          "proceeds": 1180,
+          "description": "Download link to personalized gift guide."
+        }
+      ]
+    },
+    {
+      "id": "camp_009",
+      "name": "Free Shipping Threshold Push",
+      "device": "desktop",
+      "steps": [
+        {
+          "id": "step_1",
+          "name": "Free shipping banner",
+          "type": "teaser",
+          "views": 18000,
+          "proceeds": 6400,
+          "description": "Top banner showing 'Free shipping over $50'."
+        },
+        {
+          "id": "step_2",
+          "name": "Cart progress popup",
+          "type": "interaction",
+          "views": 6400,
+          "proceeds": 3100,
+          "description": "Popup showing how close user is to free shipping."
+        },
+        {
+          "id": "step_3",
+          "name": "Checkout reminder",
+          "type": "email",
+          "views": 3100,
+          "proceeds": 900,
+          "description": "Email reminder to complete checkout for free shipping."
+        },
+        {
+          "id": "step_4",
+          "name": "Order confirmation",
+          "type": "success",
+          "views": 900,
+          "proceeds": 880,
+          "description": "Confirmation screen with free shipping applied."
+        }
+      ]
+    },
+    {
+      "id": "camp_010",
+      "name": "Mobile First-Time Buyer Offer",
+      "device": "mobile",
+      "steps": [
+        {
+          "id": "step_1",
+          "name": "First visit coupon teaser",
+          "type": "teaser",
+          "views": 15000,
+          "proceeds": 5200,
+          "description": "Mobile popup offering 10% off first purchase."
+        },
+        {
+          "id": "step_2",
+          "name": "Email signup gate",
+          "type": "email",
+          "views": 5200,
+          "proceeds": 2300,
+          "description": "Email required to unlock first-time discount."
+        },
+        {
+          "id": "step_3",
+          "name": "Welcome discount reveal",
+          "type": "success",
+          "views": 2300,
+          "proceeds": 2250,
+          "description": "Discount code revealed with copy button."
+        }
+      ]
+    },
+    {
+      "id": "camp_011",
+      "name": "Product Recommendation Quiz",
+      "device": "desktop",
+      "steps": [
+        {
+          "id": "step_1",
+          "name": "Quiz entry teaser",
+          "type": "teaser",
+          "views": 22000,
+          "proceeds": 11000,
+          "description": "Popup inviting users to take a product recommendation quiz."
+        },
+        {
+          "id": "step_2",
+          "name": "Preference questions",
+          "type": "interaction",
+          "views": 11000,
+          "proceeds": 4800,
+          "description": "Multi-step quiz asking about preferences and needs."
+        },
+        {
+          "id": "step_3",
+          "name": "Results reveal",
+          "type": "success",
+          "views": 4800,
+          "proceeds": 4700,
+          "description": "Personalized product recommendations displayed."
+        }
+      ]
+    },
+    {
+      "id": "camp_012",
+      "name": "App Exclusive Discount Campaign",
+      "device": "mobile",
+      "steps": [
+        {
+          "id": "step_1",
+          "name": "App-only offer teaser",
+          "type": "teaser",
+          "views": 19000,
+          "proceeds": 6000,
+          "description": "Banner promoting exclusive in-app discount."
+        },
+        {
+          "id": "step_2",
+          "name": "App install prompt",
+          "type": "redirect",
+          "views": 6000,
+          "proceeds": 3200,
+          "description": "Prompt to install app to unlock discount."
+        },
+        {
+          "id": "step_3",
+          "name": "In-app coupon reveal",
+          "type": "coupon",
+          "views": 3200,
+          "proceeds": 1500,
+          "description": "Coupon displayed inside app after login."
+        },
+        {
+          "id": "step_4",
+          "name": "Purchase confirmation",
+          "type": "success",
+          "views": 1500,
+          "proceeds": 1480,
+          "description": "Confirmation screen with applied discount."
+        }
+      ]
+    },
+    {
+      "id": "camp_013",
+      "name": "Returning Visitor Winback Campaign",
+      "device": "desktop",
+      "steps": [
+        {
+          "id": "step_1",
+          "name": "Welcome back popup",
+          "type": "teaser",
+          "views": 13000,
+          "proceeds": 4200,
+          "description": "Popup targeting returning users with incentive."
+        },
+        {
+          "id": "step_2",
+          "name": "Personalized discount offer",
+          "type": "coupon",
+          "views": 4200,
+          "proceeds": 1900,
+          "description": "Dynamic discount based on previous browsing history."
+        },
+        {
+          "id": "step_3",
+          "name": "Re-engagement email",
+          "type": "email",
+          "views": 1900,
+          "proceeds": 700,
+          "description": "Email reminder with personalized recommendations."
+        },
+        {
+          "id": "step_4",
+          "name": "Reactivation success",
+          "type": "success",
+          "views": 700,
+          "proceeds": 690,
+          "description": "Return confirmation with reactivated benefits."
+        }
+      ]
     }
   ]
 }
