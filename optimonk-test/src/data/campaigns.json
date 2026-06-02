@@ -84,6 +84,76 @@
           "description": "Thank-you screen confirming subscription."
         }
       ]
+    },
+    {
+      "id": "camp_004",
+      "name": "Black Friday Flash Sale",
+      "device": "desktop",
+      "steps": [
+        {
+          "id": "step_1",
+          "name": "Countdown teaser",
+          "type": "teaser",
+          "views": 25000,
+          "proceeds": 8000,
+          "description": "Countdown timer popup with 'Claim your deal' CTA."
+        },
+        {
+          "id": "step_2",
+          "name": "Deal reveal",
+          "type": "coupon",
+          "views": 8000,
+          "proceeds": 6200,
+          "description": "Full-screen reveal of the Black Friday deal."
+        },
+        {
+          "id": "step_3",
+          "name": "Email to unlock",
+          "type": "email",
+          "views": 6200,
+          "proceeds": 900,
+          "description": "Email required to unlock extra 5% off."
+        },
+        {
+          "id": "step_4",
+          "name": "Success screen",
+          "type": "success",
+          "views": 900,
+          "proceeds": 870,
+          "description": "Coupon shown with copy button."
+        }
+      ]
+    },
+    {
+      "id": "camp_005",
+      "name": "Spin-to-Win Wheel",
+      "device": "mobile",
+      "steps": [
+        {
+          "id": "step_1",
+          "name": "Wheel teaser",
+          "type": "teaser",
+          "views": 9000,
+          "proceeds": 5400,
+          "description": "Animated spin wheel teaser bottom bar."
+        },
+        {
+          "id": "step_2",
+          "name": "Email to spin",
+          "type": "email",
+          "views": 5400,
+          "proceeds": 2100,
+          "description": "User enters email to spin the wheel."
+        },
+        {
+          "id": "step_3",
+          "name": "Spin result",
+          "type": "success",
+          "views": 2100,
+          "proceeds": 1950,
+          "description": "Result shown with won discount code."
+        }
+      ]
     }
   ]
 }
