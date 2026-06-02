@@ -4,15 +4,15 @@ export function computeCampaignMetrics( campaign : Campaign ): CampaignMetrics {
     const computedStepsMetrics = computeStepsMetrics(campaign.steps);
     const worstStepId = findWorstStepId(computedStepsMetrics);
 
-    const totalConversions = campaign.steps.reduce((sum, step) => sum + step.proceeds, 0);
-    const totalViews = campaign.steps.reduce((sum, step) => sum + step.views, 0);
+    const start = campaign.steps[0]?.views || 0;
+    const proceedsAtEnd = campaign.steps[campaign.steps.length - 1]?.proceeds || 0;
     return {
         ...campaign,
-        overallConversionRate: calculateConversionRate(totalViews, totalConversions),
+        overallConversionRate: calculateConversionRate(start, proceedsAtEnd),
         steps: flagWorstStepInMetrics(computedStepsMetrics, worstStepId),
         worstStepId,
-        totalViews,
-        totalConversionPercent: totalConversions,
+        viewsAtStart: start,
+        proceedsAtEnd: proceedsAtEnd,
     };
 }
 
