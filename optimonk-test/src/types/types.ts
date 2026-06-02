@@ -13,3 +13,17 @@ export interface Campaign {
   device: 'desktop' | 'mobile';
   steps: Step[];
 }
+
+export interface StepMetrics extends Step{
+    conversionRate: number;
+    dropOffRate: number;
+    isWorstStep: boolean;
+}
+
+export interface CampaignMetrics extends Campaign {
+    overallConversionRate: number;
+    stepsMetrics: StepMetrics[];
+    worstStepId: string | null;
+    totalViews: number;
+    totalConversions: number;
+}
