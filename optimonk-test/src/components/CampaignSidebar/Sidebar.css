@@ -34,7 +34,7 @@
   }
 
   .sidebar-item--selected {
-    @apply border-primary bg-muted;
+    @apply border-slate-300 bg-muted dark:border-slate-500;
   }
 
   .sidebar-item--idle {

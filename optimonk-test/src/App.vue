@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import SideBar from '@components/CampaignSidebar/Sidebar.vue';
-import Dashboard from '@components/layout/Dashboard.vue';
+import Dashboard from '@components/Dashboard/Dashboard.vue';
 import Header from '@components/layout/Header.vue';
 import {campaigns} from '@/data/campaigns';
 import { computeCampaignMetrics } from '@/utils/metrics';
@@ -24,7 +24,7 @@ console.log('Campaign Metrics:', campaignMetrics);
     <div class="md:flex">
       <SideBar :campaigns="campaignMetrics" @select="selectCampaign" />
       <div class="min-w-0 flex-1">
-        <Dashboard />
+        <Dashboard :campaign="selectedCampaign" />
       </div>
     </div>
   </main>
