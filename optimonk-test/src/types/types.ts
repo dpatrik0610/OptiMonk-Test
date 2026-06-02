@@ -22,8 +22,8 @@ export interface StepMetrics extends Step{
 
 export interface CampaignMetrics extends Campaign {
     overallConversionRate: number;
-    stepsMetrics: StepMetrics[];
+    steps: StepMetrics[];
     worstStepId: string | null;
     totalViews: number;
-    totalConversions: number;
+    totalConversionPercent: number;
 }
