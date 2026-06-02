@@ -24,6 +24,6 @@ export interface CampaignMetrics extends Campaign {
     overallConversionRate: number;
     steps: StepMetrics[];
     worstStepId: string | null;
-    totalViews: number;
-    totalConversionPercent: number;
+    viewsAtStart: number;
+    proceedsAtEnd: number;
 }
